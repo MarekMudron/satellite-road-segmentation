@@ -1,0 +1,40 @@
+Evaluating ...
+Encoder: resnet18
+encoder-depth: 3
+trained on both07:15:27.685865
+testing on both
+model pathmodels/runs/train/resnet18-3-both07:15:27.685865
+IOU:  0.44979988026769613
+============================================================
+Evaluating ...
+Encoder: resnet18
+encoder-depth: 5
+trained on both21:59:31.240246
+testing on both
+model pathmodels/runs/train/resnet18-5-both21:59:31.240246
+IOU:  0.48405519570407896
+============================================================
+Evaluating ...
+Encoder: resnet18
+encoder-depth: 5
+trained on both
+testing on both
+model pathmodels/runs/train/resnet18-5-both-pretrained23:04:41.642611
+IOU:  0.5269597318688464
+============================================================
+Evaluating ...
+Encoder: resnet18
+encoder-depth: 5
+trained on deepglobe
+testing on ma
+model pathmodels/runs/train/resnet18-5-deepglobe-pretrained00:11:30.002388
+IOU:  0.4300674523215696
+============================================================
+Evaluating ...
+Encoder: resnet18
+encoder-depth: 5
+trained on deepglobe
+testing on ma
+model pathmodels/runs/train/resnet18-5-deepglobe-augmented-pretrained01:04:23.606854
+IOU:  0.43905770527311117
+============================================================
