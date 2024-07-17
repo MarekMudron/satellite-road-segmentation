@@ -1,4 +1,7 @@
-# Road segmentation - POVa 2023 project
+# Road segmentation
+
+![alt text](./doc/results1.png)
+![alt text](./doc/results2.png)
 
 ### Team members
 
@@ -62,6 +65,9 @@ You can find more info about it in `doc.pdf`.
 To train model with 5 pretrained encoder layers on combined dataset use following command
 
 `python3 train.py --train-data both  --encoder-depth 5 --pretrained-encoder`
+
+![alt text](./doc/explanation.png)
+
 
 # Testing
 To train desired model, use script `test.py` and specify desired arguments.
